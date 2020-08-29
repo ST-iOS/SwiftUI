@@ -13,6 +13,7 @@
 		BB3760CE24F9D38F00625A9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB3760CD24F9D38F00625A9E /* Assets.xcassets */; };
 		BB3760D124F9D38F00625A9E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB3760D024F9D38F00625A9E /* Preview Assets.xcassets */; };
 		BB3760D424F9D38F00625A9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB3760D224F9D38F00625A9E /* LaunchScreen.storyboard */; };
+		BB3760DC24F9FA4500625A9E /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3760DB24F9FA4500625A9E /* TimeCounter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BB3760D024F9D38F00625A9E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BB3760D324F9D38F00625A9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB3760D524F9D38F00625A9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB3760DB24F9FA4500625A9E /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				BB3760D224F9D38F00625A9E /* LaunchScreen.storyboard */,
 				BB3760D524F9D38F00625A9E /* Info.plist */,
 				BB3760CF24F9D38F00625A9E /* Preview Content */,
+				BB3760DB24F9FA4500625A9E /* TimeCounter.swift */,
 			);
 			path = SwiftUIDemo;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				BB3760C824F9D38D00625A9E /* AppDelegate.swift in Sources */,
 				BB3760CA24F9D38D00625A9E /* SceneDelegate.swift in Sources */,
 				BB3760CC24F9D38D00625A9E /* ContentView.swift in Sources */,
+				BB3760DC24F9FA4500625A9E /* TimeCounter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
