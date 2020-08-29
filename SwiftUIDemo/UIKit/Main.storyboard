@@ -10,7 +10,7 @@
         <!--UIKit-->
         <scene sceneID="dBs-Ph-lRd">
             <objects>
-                <viewController storyboardIdentifier="Main" title="UIKit" id="yX8-87-od6" customClass="ViewController" customModule="SwiftUIDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="uviewcontroller" title="UIKit" id="yX8-87-od6" customClass="UViewController" customModule="SwiftUIDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GRF-ag-2Qm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

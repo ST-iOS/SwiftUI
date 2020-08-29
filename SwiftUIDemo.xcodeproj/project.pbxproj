@@ -15,7 +15,7 @@
 		BB3760D424F9D38F00625A9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB3760D224F9D38F00625A9E /* LaunchScreen.storyboard */; };
 		BB3760DC24F9FA4500625A9E /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3760DB24F9FA4500625A9E /* TimeCounter.swift */; };
 		BB3760E124FAFD7F00625A9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB3760E024FAFD7F00625A9E /* Main.storyboard */; };
-		BB3760E324FAFDA500625A9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3760E224FAFDA500625A9E /* ViewController.swift */; };
+		BB3760E324FAFDA500625A9E /* UViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3760E224FAFDA500625A9E /* UViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,7 @@
 		BB3760D524F9D38F00625A9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB3760DB24F9FA4500625A9E /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
 		BB3760E024FAFD7F00625A9E /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		BB3760E224FAFDA500625A9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB3760E224FAFDA500625A9E /* UViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				BB3760E024FAFD7F00625A9E /* Main.storyboard */,
-				BB3760E224FAFDA500625A9E /* ViewController.swift */,
+				BB3760E224FAFDA500625A9E /* UViewController.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -164,7 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB3760E324FAFDA500625A9E /* ViewController.swift in Sources */,
+				BB3760E324FAFDA500625A9E /* UViewController.swift in Sources */,
 				BB3760C824F9D38D00625A9E /* AppDelegate.swift in Sources */,
 				BB3760CA24F9D38D00625A9E /* SceneDelegate.swift in Sources */,
 				BB3760CC24F9D38D00625A9E /* ContentView.swift in Sources */,
