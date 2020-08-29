@@ -34,10 +34,12 @@ struct ContentView: View {
         VStack {
             HStack {
                 VStack {
-                        Color(red: rTarget, green: gTarget, blue: bTarget)
-                        Text("Match this Color")
-                        .fontWeight(.ultraLight)
-                        }
+                    Color(red: rTarget, green: gTarget, blue: bTarget)
+                    self.showAlert ? Text( "R: \(Int(rGuess * 255.0))"
+                        + "G: \(Int(gGuess * 255.0))"
+                        + "B: \(Int(bGuess * 255.0))"
+                        ) : Text("Match this Color").fontWeight(.semibold)
+                }
                 VStack {
                     Color(red: rGuess, green: gGuess, blue: bGuess)
                     Text( "R: \(Int(rGuess * 255.0))"
@@ -51,13 +53,13 @@ struct ContentView: View {
             }.alert(isPresented: $showAlert) {
                 Alert(title: Text("Your Score"),message: Text(String(computeScore())))
             }.padding()
-            
-            
             //Slider
-            ColorSlider(value: $rGuess, textColor: .red)
-            ColorSlider(value: $gGuess, textColor: .green)
-            ColorSlider(value: $bGuess, textColor: .blue)
-        }
+            VStack{
+                ColorSlider(value: $rGuess, textColor: .red)
+                ColorSlider(value: $gGuess, textColor: .green)
+                ColorSlider(value: $bGuess, textColor: .blue)
+            }.padding(.horizontal)
+        }.font(Font.subheadline.lowercaseSmallCaps().weight(.light))
     }
 }
 
@@ -74,7 +76,7 @@ struct ColorSlider: View {
     var body: some View {
         HStack {
             Text("0").foregroundColor(textColor)
-            Slider(value: $value)
+            Slider(value: $value).background(textColor).cornerRadius(10)
             Text("255").foregroundColor(textColor)
         }
     }
